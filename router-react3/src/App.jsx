@@ -1,11 +1,11 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
-import Menu from './components/Menu'
-import Rodape from './components/Rodape'
+import Menu from "./components/Menu";
+import Rodape from "./components/Rodape";
 
-function App() { 
+export default function App() {
 
-  return(
+  return (
     <>
       <Menu/>
       <Outlet/>
@@ -13,4 +13,3 @@ function App() {
     </>
   )
 }
-export default App
